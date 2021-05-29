@@ -130,11 +130,19 @@
                                             <action selector="backPress:" destination="jqz-P1-6O6" eventType="touchUpInside" id="Wsh-PS-Vfd"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Orders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNj-bG-Lfi">
+                                        <rect key="frame" x="177.33333333333334" y="45" width="73.666666666666657" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" name="View Header Color"/>
                                 <constraints>
                                     <constraint firstItem="BfV-l2-TL5" firstAttribute="leading" secondItem="PBF-AY-hFX" secondAttribute="leading" constant="15" id="49w-HK-7X5"/>
                                     <constraint firstAttribute="bottom" secondItem="BfV-l2-TL5" secondAttribute="bottom" constant="15" id="5CT-EH-BDl"/>
+                                    <constraint firstItem="LNj-bG-Lfi" firstAttribute="centerY" secondItem="BfV-l2-TL5" secondAttribute="centerY" id="P46-zN-gXc"/>
+                                    <constraint firstItem="LNj-bG-Lfi" firstAttribute="centerX" secondItem="PBF-AY-hFX" secondAttribute="centerX" id="Vul-OX-gxc"/>
                                     <constraint firstAttribute="height" constant="90" id="lIA-Fp-FjQ"/>
                                 </constraints>
                             </view>
@@ -198,11 +206,19 @@
                                             <action selector="backPress:" destination="G1h-fF-GXW" eventType="touchUpInside" id="KR4-Q2-QBc"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rewards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8e-YS-TcF">
+                                        <rect key="frame" x="167.66666666666666" y="45" width="92.999999999999972" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" name="View Header Color"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="zKI-jp-e1P" secondAttribute="bottom" constant="15" id="FJh-98-jNB"/>
                                     <constraint firstAttribute="height" constant="90" id="Hg3-xO-PC7"/>
+                                    <constraint firstItem="O8e-YS-TcF" firstAttribute="centerY" secondItem="zKI-jp-e1P" secondAttribute="centerY" id="dKV-u0-AGv"/>
+                                    <constraint firstItem="O8e-YS-TcF" firstAttribute="centerX" secondItem="U6a-9q-ZsV" secondAttribute="centerX" id="r20-rg-Hha"/>
                                     <constraint firstItem="zKI-jp-e1P" firstAttribute="leading" secondItem="U6a-9q-ZsV" secondAttribute="leading" constant="15" id="tOL-x2-oKi"/>
                                 </constraints>
                             </view>
@@ -275,9 +291,17 @@
                                                             <action selector="backPress:" destination="c4p-1c-4GY" eventType="touchUpInside" id="aLf-LK-NEA"/>
                                                         </connections>
                                                     </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trading Hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emG-dR-Ood">
+                                                        <rect key="frame" x="138.66666666666669" y="45" width="150.66666666666669" height="30"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <color key="backgroundColor" name="View Header Color"/>
                                                 <constraints>
+                                                    <constraint firstItem="emG-dR-Ood" firstAttribute="centerX" secondItem="iHi-AP-9jJ" secondAttribute="centerX" id="1EC-cP-6V6"/>
+                                                    <constraint firstItem="emG-dR-Ood" firstAttribute="centerY" secondItem="WRy-rf-RXt" secondAttribute="centerY" id="8XJ-js-NQP"/>
                                                     <constraint firstItem="WRy-rf-RXt" firstAttribute="leading" secondItem="iHi-AP-9jJ" secondAttribute="leading" constant="15" id="UTn-77-d7D"/>
                                                     <constraint firstAttribute="bottom" secondItem="WRy-rf-RXt" secondAttribute="bottom" constant="15" id="uRN-IZ-Lnl"/>
                                                     <constraint firstAttribute="height" constant="90" id="vQj-Nl-y1K"/>
@@ -396,11 +420,19 @@
                                             <action selector="backPress:" destination="EMX-wI-UWt" eventType="touchUpInside" id="ape-0o-nSM"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7i-1X-Ndv">
+                                        <rect key="frame" x="173.33333333333334" y="45" width="81.666666666666657" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" name="View Header Color"/>
                                 <constraints>
+                                    <constraint firstItem="D7i-1X-Ndv" firstAttribute="centerY" secondItem="ezz-Jv-xS3" secondAttribute="centerY" id="12g-Jb-cfW"/>
                                     <constraint firstAttribute="bottom" secondItem="ezz-Jv-xS3" secondAttribute="bottom" constant="15" id="1JY-Le-pNQ"/>
                                     <constraint firstAttribute="height" constant="90" id="IbN-ZG-IbI"/>
+                                    <constraint firstItem="D7i-1X-Ndv" firstAttribute="centerX" secondItem="dcY-7d-eqF" secondAttribute="centerX" id="OM0-UI-y60"/>
                                     <constraint firstItem="ezz-Jv-xS3" firstAttribute="leading" secondItem="dcY-7d-eqF" secondAttribute="leading" constant="15" id="qD3-Tr-wOa"/>
                                 </constraints>
                             </view>
