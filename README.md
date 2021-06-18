@@ -3,7 +3,7 @@
 This is a demo project built using Swift language which will guide you through different view controllers using UIButton.
 
 ## Programming language used
-- Swift
+- Swift 5
 
 ## Deployment Info
 - iOS 14.3
